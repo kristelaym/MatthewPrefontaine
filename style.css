@@ -23,10 +23,18 @@ nav a:hover {
   text-decoration: underline;
 }
 
-section {
-  padding: 2rem;
+/* Add this */
+.container {
   max-width: 800px;
-  margin: auto;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Adjust section styling */
+section {
+  padding: 0;
+  max-width: none;
+  margin: 0;
 }
 
 .gallery {
